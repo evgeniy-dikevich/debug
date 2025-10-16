@@ -11,6 +11,6 @@ permissions:
 
 jobs:
   ci:
-    uses: input-output-hk/catalyst-forge/.github/workflows/ci.yml@ci/v1.8.1
+    uses: input-output-hk/catalyst-forge/.github/workflows/ci.yml@debug-skip-github
     with:
       forge_version: 0.19.1
